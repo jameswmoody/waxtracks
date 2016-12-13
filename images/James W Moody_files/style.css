@@ -1,0 +1,56 @@
+.navbar-default {
+  background-color: #272822;
+  border-color: #272822;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {
+  color: #CBCBCB;
+}
+.navbar-default .navbar-brand {
+  font-size: 26px;
+}
+.dropdown-menu {
+  background-color: #CBCBCB;
+}
+
+
+.intro-header {
+  height: 720px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  background: url(http://h.visentin.free.fr/tatras-pics/orla/cyr04_1000x500.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.red {
+  background-color: #DEDEDE;
+}
+.white {
+  background-color: #fff;
+}
+.footer {
+  background-color: #272822;
+  width: 100%;
+}
+
+.header-tag {
+  padding-top: 200px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-align: right;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,256 @@
+html {
+	background-color: #000;
+}
+
+/* Fonts */
+
+h1, h2, h3, .navbar-nav {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	margin-bottom: 0;
+
+}
+h1 {
+	color: #fff;
+	font-size: 7vh;
+	margin-top: 10px;
+}
+h2 {
+	padding-top: 30vh;
+	color: #fff;
+	font-size: 30px;
+	text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 70px #000000, 0 0 80px #000000, 0 0 100px #000000;
+}
+@media (max-width: 414px) {
+    h2 {
+		font-size: 20px;
+    }
+}
+h3 {
+	color: #000;
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-bottom: 2px;
+}
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav>li>a {
+		padding-left: 25px;
+		padding-right: 25px;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+.navbar-nav {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	border-bottom: 2px #fff solid;
+	color: #fff;
+}
+.header p {
+	color: #fff;
+	font-family: "Arial Narrow", Arial, sans-serif;
+	margin-bottom: -2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#mainCell h3 {
+	color: #fff;
+	padding: 20px;
+	margin-top: 0;
+}
+.content p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	color: #515151;
+}
+#info h3 {
+	color: #515151;
+}
+#info span {
+	border-bottom: 2px #515151 solid;
+	color: #515151;
+}
+#info p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+}
+.cellTextL span, .cellTextR span {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 40px;
+	color: #515151;
+}
+.footer p {
+	padding: 5px;
+	margin: 20px;
+	color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+/* Main */
+
+.header {
+	background-color: #000;
+}
+.header {
+	height: 16vh;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  background-color: #000;
+}
+.navbar-default {
+    background-color: #000;
+    border-color: #000;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+#backsplash { 
+	width: 100%; 
+	height: 83vh; 
+  	background: url(images/backsplash.jpeg) no-repeat center center;
+  	background-size: cover;
+
+}
+
+/* Search */
+
+#searchbar {
+	width: 60vw;
+	height: 30px;
+	background: rgba(255,255,255,0.6);
+	border: black 1px solid;
+	font-size: 14px;
+}
+#search-header {
+	margin-top: 0;
+}
+
+/* Content */
+
+#content {
+	display: inline-block;
+	background-color: #fff;
+	width: 100%;
+	margin: auto;
+}
+#mainCell {
+	background-color: #000;
+}
+.cellTextL {
+  	padding-top: 9%;
+  	padding-bottom: 9%;
+}
+.cellTextR {
+  	padding-top: 9%;
+  	padding-bottom: 9%;
+}
+.cellTextL, .cellTextR {
+
+}
+@media (min-width: 1200px) {
+    .cellTextL {
+    	text-align: right;
+    }
+}
+.cellL {
+
+
+	background-color: #DEDEDE;
+}
+.cellR {
+
+	background-color: #fff;
+}
+
+/* Content Images */
+
+.cellImgL, .cellImgR {
+	border-radius: 50%;
+	border:5px solid #CBCBCB;
+	height: 300px;
+	width: 300px;
+}
+.cellImgL {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 80px;
+	margin-left: 0px;
+}
+.cellImgR {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+	margin-left: 80px;
+}
+@media (max-width: 1200px) {
+    .cellImgL, .cellImgR {
+    	float: none;
+    	display: block;
+    	margin: 5% auto 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+	.col-lg-pull-5 {
+    	right: 28.33333333%;
+    	}
+	.col-lg-push-7 {
+    	left: 66.33333333%;
+	}
+	.col-md-7 {
+    	left: 9.33333333%;
+	}
+}
+#img1 {
+	background: url(images/img1.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+}
+#img2 {
+	background: url(images/img2.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+}
+#img3 {
+	background: url(images/img3.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+}
+#img4 {
+	background: url(images/img4.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+}
+#img5 {
+	background: url(images/img5.jpeg) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+/* Content Bottom  */
+.footer {
+	background-color: #000;
+}
+
+.come-inR {
+  transform: translateX(1500px);
+  animation: come-in 0.8s ease forwards;
+  animation-delay: .4s;
+}
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+.come-inL {
+  transform: translateX(-1500px);
+  animation: come-in 0.7s ease forwards;
+  animation-delay: .4s;
+}
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
